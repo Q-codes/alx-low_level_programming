@@ -2,9 +2,13 @@
 
 /**
 *main entry point
+*
 *use printf not puts
+*
 *Return (0)
+*
 *program should compile without warning with -Wall gcc option
+*
 */
 
 int main(void)
