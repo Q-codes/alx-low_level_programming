@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * Entry - main.h
@@ -8,9 +8,7 @@
 
 int main(void)
 {
-	char ch;
-	ch=getchar("_putchar");
-	putchar(ch);
+	putchar("_putchar");
 
-	Return 0
+	Return (0)
 }
