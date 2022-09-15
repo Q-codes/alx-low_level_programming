@@ -1,6 +1,5 @@
-#ifndef HOLBERTON_H_
-
-#define HOLBERTON_H_
+/**
+ */
 
 
 
@@ -39,7 +38,3 @@ void print_times_table(int n);
 void print_spaces(int n);
 
 void print_zero(void);
-
-
-
-#endif
