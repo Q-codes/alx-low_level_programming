@@ -1,10 +1,10 @@
-#include <stdio.h>
-/*#include <main.h>*/
+#include "main.h"
 
 /**
- * print_alphabet - write the the lower-case alphabet on a line
- * Returns: void
- */
+* print_alphabet: print alphabet
+* 
+* Returns: void
+*/
 
 void print_alphabet(void)
 {
@@ -12,7 +12,7 @@ void print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(c);
+		_putchar(c);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
