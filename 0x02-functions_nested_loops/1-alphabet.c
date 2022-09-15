@@ -2,8 +2,7 @@
 /*#include <main.h>*/
 
 /**
- * print alphabet - entry point
- * description print_alphabet: Prints the aphabet with putchar
+ * print_alphabet - write the the lower-case alphabet on a line
  * Returns: void
  */
 
