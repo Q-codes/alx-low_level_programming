@@ -12,8 +12,6 @@
 int print_sign(int n)
 
 {
-	int n;
-
 	if (n > 0)
 	{
 		printf("+");
@@ -31,4 +29,6 @@ int print_sign(int n)
 		printf("-");
 		return (-1);
 	}
+
+	return (0);
 }
