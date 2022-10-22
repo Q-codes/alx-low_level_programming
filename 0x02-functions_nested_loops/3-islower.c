@@ -4,6 +4,7 @@
 
 /**
 *_islower - check if the given character is lower case
+*@c: given character
 *Return: Always 0.
 */
 
