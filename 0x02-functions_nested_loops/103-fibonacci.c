@@ -16,18 +16,16 @@ int main(void)
 		sum = fib1 + fib2;
 		if (sum % 2 == 0)
 		{
-			printf("%lu", sum);
+			printf("%lu, ", sum);
 		}
 
 		fib1 = fib2;
 		fib2 = sum;
 	}
 
-		if (count == 3999999)
+		if (count == 3999998)
 		{
 			printf("\n");
-		else
-			printf(", ");
 		}
 
 	return (0);
