@@ -11,28 +11,31 @@
 int main(void)
 {
 	int num;
-	/**	int prod;
-
-	prod = 3 * 5;
-	*/
 
 	for (num = 1; num <= 100; num++)
 	{
-		printf("%d", num);
+		if (num % 3 == 0 && num % 5 == 0)
 		{
-			if (num % 3 == 0)
-			{
-				printf("Fizz");
-			}
-
-			if (num % 5 == 0)
-			{
-				printf("Buzz");
-			}
-
+			printf("FizzBuzz ");
 		}
-	}
-	printf("\n");
 
+		else if (num % 3 == 0)
+		{
+			printf("Fizz ");
+		}
+
+		else if (num % 5 == 0)
+		{
+			printf("Buzz ");
+		}
+
+		else
+		{
+			printf("%d ", num);
+		}
+
+	}
+
+	printf("\n");
 	return (0);
 }
